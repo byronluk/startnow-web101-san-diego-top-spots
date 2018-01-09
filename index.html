@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>San Diego Top Spots</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans|Merriweather|Merriweather+Sans|Nunito|Nunito+Sans|Quattrocento|Quattrocento+Sans|Roboto|Roboto+Mono|Roboto+Slab" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Write your markup here -->
+    <h1 class="page-title">San Diego Top Spots</h1>
+    <div id="floating-panel">
+        <label>Destination:</label> <br />
+        <select id="destination" name="destination">
+            <option value="";></option>
+        </select>
+    </div>
+    <div id="right-panel"></div>
+    <div id="map"></div>
+    <hr />
+    <table class="main-table">
+        <thead>
+            <tr class="table-header">
+                <th>Name</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+       </thead>
+       <tbody class="table-body"></tbody>
+    </table>
+    <!-- Don't forget to add your <script> tag here -->
+    <script src="jquery-3.2.1.js"></script>
+    <script src="main.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCKxHF-9WPz9WjrTzos8KpA4LreJsWo5w&callback=initMap">
+    </script>
+</body>
+</html>

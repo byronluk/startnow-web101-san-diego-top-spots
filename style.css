@@ -1,0 +1,117 @@
+html, body, div, span, applet, object, iframe,
+sh2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin: 0;
+}
+
+h1.page-title {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 3em;
+    padding: 5px;
+    margin: 5px;
+}
+
+#map {
+    width: 73%;
+    height: 400px;
+    background-color: grey;
+    margin: 5px 15px;
+    margin-bottom: 20px;
+}
+
+#floating-panel {
+    position: absolute;
+    top: 95px;
+    left: 12%;
+    z-index: 5;
+    text-align: center;
+    background-color: #fff;
+    width: 320px;
+    padding: 10px 5px;
+    border: 1px dashed #999;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+#right-panel {
+    float: right;
+    z-index: 5;
+    height: 400px;
+    width: 25%;
+    padding-left: 5px;
+    margin: 0;
+    overflow: auto;
+}
+
+#destination {
+    width: 300px;
+}
+
+.main-table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.table-header {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.4em;
+    letter-spacing: 0.5px;
+}
+
+.table-body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1em;
+}
+
+.table-header th, .table-body td {
+    border: 1px solid rgb(56, 56, 56);
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.table-header th:nth-child(1) {
+    width: 25%;
+}
+.table-header th:nth-child(2) {
+    width: 60%;
+}
+.table-header th:nth-child(3) {
+    width: 15%;
+}
+.table-body td:nth-child(1) {
+    width: 25%;
+}
+.table-body td:nth-child(2) {
+    width: 60%;
+}
+.table-body td:nth-child(3) {
+    width: 15%;
+}
+.table-body tr:nth-child(odd) {
+    background-color: rgb(240, 247, 247);
+}
